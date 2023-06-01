@@ -1,2 +1,2 @@
 # CodeWars
-Code wars coding challenges 
+A repository filled with daily codewars challenges
