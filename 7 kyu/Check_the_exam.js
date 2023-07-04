@@ -6,7 +6,6 @@
 // If the score < 0, return 0.
 
 // For example:
-
 // checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"]) → 6
 // checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]) → 7
 // checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]) → 16
@@ -19,4 +18,4 @@ function checkExam(array1, array2) {
     }
     score < 0 ? score = 0 : score
     return score
-}
+  }
