@@ -15,8 +15,8 @@
 // Good luck!
 
 function mirror(data) {
-    let x = data.slice().sort((a,b) => a - b)
-    let y = x.slice(0,x.length-1).reverse()
+    let q = data.slice().sort((a,b) => a - b)
+    let y = q.slice(0,q.length-1).reverse()
    
-    return [...x,...y]
-}
+    return [...q,...y]
+};
